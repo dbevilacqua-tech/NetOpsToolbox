@@ -1,0 +1,32 @@
+{
+  "Application": {
+    "Name": "NetOps Toolbox",
+    "Version": "1.0.0",
+    "Company": ""
+  },
+  "Branding": {
+    "UseLocalLogo": true,
+    "LogoPath": ""
+  },
+  "Theme": {
+    "AccentColor": "#2563EB",
+    "AccentBackgroundColor": "#EFF6FF",
+    "PrimaryActionColor": "#047857",
+    "WorkspaceBackgroundColor": "#F6F8FA"
+  },
+  "Diagnostics": {
+    "DnsTargets": ["www.microsoft.com", "www.google.com", "www.cloudflare.com"],
+    "InternetIcmpAddress": "1.1.1.1",
+    "InternetTcpHost": "www.msftconnecttest.com",
+    "InternetTcpPort": 80,
+    "PublicIpEndpoints": ["https://api.ipify.org/", "https://ifconfig.me/ip"],
+    "PingTimeoutMs": 1000,
+    "TraceTimeoutMs": 750,
+    "ConnectTimeoutSeconds": 5,
+    "PublicIpTimeoutSeconds": 6
+  },
+  "Logging": {
+    "Enabled": true,
+    "LocalLogFolder": "%LOCALAPPDATA%\\NetOpsToolbox\\Logs"
+  }
+}
